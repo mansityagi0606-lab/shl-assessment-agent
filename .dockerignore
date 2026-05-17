@@ -1,0 +1,50 @@
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Virtual environment
+# =========================
+venv/
+.env/
+.env.*
+
+# =========================
+# Git
+# =========================
+.git/
+.gitignore
+
+# =========================
+# IDE files
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Local data / indexes (VERY IMPORTANT for FAISS)
+# If you rebuild index at runtime, exclude this
+# =========================
+data/
+*.faiss
+*.pkl
+
+# =========================
+# Jupyter notebooks (optional)
+# =========================
+.ipynb_checkpoints/
